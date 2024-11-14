@@ -38,4 +38,7 @@ function comprar() {
     } else {
         alert('Não há ingressos desse tipo disponíveis');
     }
+
+    document.getElementById('tipo-ingresso').value = 'esccolhaTipo';
+    document.getElementById('qtd').value = '';
 }
