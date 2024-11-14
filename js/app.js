@@ -11,6 +11,7 @@ function comprar() {
         if ( quantidade > inferiorDisponivel){
             alert('Quantidade excede à quantidade disponível');
         } else {
+            alert('Compra realizada com sucesso.')
             let resultado = inferiorDisponivel - quantidade;
             inferiorDisponivel = resultado;
             document.getElementById('qtd-inferior').innerHTML = inferiorDisponivel;
@@ -20,6 +21,7 @@ function comprar() {
         if (quantidade > superiorDisponivel){
             alert('Quantidade excede à quantidade disponível');
         } else {
+            alert('Compra realizada com sucesso.')
             let resultado = superiorDisponivel - quantidade;
             superiorDisponivel = resultado;
             document.getElementById('qtd-superior').innerHTML = superiorDisponivel;  
@@ -28,6 +30,7 @@ function comprar() {
         if (quantidade > pistaDisponivel){
             alert('Quantidade excede à quantidade disponível');
         } else {
+            alert('Compra realizada com sucesso.')
             let resultado = pistaDisponivel - quantidade;
             pistaDisponivel = resultado;
             document.getElementById('qtd-pista').innerHTML = pistaDisponivel;
